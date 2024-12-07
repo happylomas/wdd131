@@ -1,8 +1,18 @@
 
-let lastmodify = document.lastModified;
-let ModifiedElement = document.getElementById("last-modified");
-if (ModifiedElement) {
-    ModifiedElement.textContent = `Last Modification: ${lastmodify}`;
+// let lastmodify = document.lastModified;
+// let ModifiedElement = document.getElementById("last-modified");
+// if (ModifiedElement) {
+//     ModifiedElement.textContent = `Last Modification: ${lastmodify}`;
+// }
+
+
+const lastModified = document.lastModified;
+const modifiedElement = document.getElementById("last-modified");
+
+if (modifiedElement) {
+const date = new Date(lastModified);
+const formattedDate = date.toLocaleDateString();
+modifiedElement.textContent = "Last Modified: " + formattedDate;
 }
 
 
