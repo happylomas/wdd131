@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="Dispay LDS Temple Album">
+    <meta name="author" content="Prince Chigozirim Ebere - WDD 131 - Dynamic Web Fundamentals">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <!-- <link rel="stylesheet" href="styles/temples-large.css"> -->
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Temples Album</h1>
+        <button id="menu"></button>
+        <nav>
+            <!-- <ul class="navigation"> -->
+            <button onclick="filterTemples('home')">Home</button>
+            <button onclick="filterTemples('old')">Old</button>
+            <button onclick="filterTemples('new')">New</button>
+            <button onclick="filterTemples('large')">Large</button>                    <button onclick="filterTemples('small')">Small</button>
+        </nav>
+    </header>
+    <!-- <h1>Home</h1> -->
+
+    <main>
+        <div class="container" id="templesContainer"></div>
+    </main>
+
+    <footer>
+        <p>🌸Prince Ebere C🌸: &copy;2024 Aba Nigeria</p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+</html>
