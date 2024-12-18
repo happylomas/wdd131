@@ -4,7 +4,7 @@
 body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: rgb(184, 248, 184);
+    background-color: #78eb78;
     text-decoration: solid;
     display: block;
     border: 50px;
@@ -12,6 +12,10 @@ body {
 
 
 footer {
-    background-color:blueviolet;
+    background-color:#ACC8E5;
     color:azure;
+}
+
+footer p {
+    color: #112A46;
 }
