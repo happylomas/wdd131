@@ -148,3 +148,38 @@ footer {
     padding: 1rem;
     margin: 1.5rem;
 }
+
+
+
+/* Products */
+
+.order-page {
+    padding: 2rem;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.order-item label {
+    margin-right: 0.5rem;
+}
+
+#order-summary {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#order-summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+#order-summary li {
+    margin: 0.5rem 0;
+}
